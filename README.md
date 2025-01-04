@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Module 03 Mini-Project: Rock, Paper, Scissors
 
 In this activity, you will work with a group to build a game using only JavaScript.
@@ -49,3 +50,7 @@ Use [Google](https://www.google.com) or another search engine to research this.
 ---
 
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+=======
+# mini-project-3
+A simple Rock Paper Scissors game in JavaScript
+>>>>>>> afced9c59fcfced98c14613fcdccc61a72c70ef3
