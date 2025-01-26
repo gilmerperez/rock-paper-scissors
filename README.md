@@ -1,56 +1,37 @@
-<<<<<<< HEAD
-# Module 03 Mini-Project: Rock, Paper, Scissors
+# Rock, Paper, Scissors
 
-In this activity, you will work with a group to build a game using only JavaScript.
+## Description
+
+This project involves building a game of Rock, Paper, Scissors using only JavaScript. Users can play against an automated opponent, track their results, and analyze their choices.
 
 ## Instructions
 
-The completed application should meet the following criteria:
+The application should meet the following criteria:
 
-* As a user, I want to play Rock, Paper, Scissors against an automated opponent.
+* Users can enter **R**, **P**, or **S** to signify their choice of rock, paper, or scissors.
+* The computer's choice is randomly generated for a fair game.
+* Users will be prompted if they enter an invalid choice.
+* After each round, users have the option to play again.
+* At the end of the game, users can view their total wins, losses, ties, and how many times they chose each option.
 
-* As a user, I can enter R, P, or S to signify my choice of rock, paper, or scissors.
+## Key Features
 
-* As a user, I expect the computer to choose R, P, or S in return.
+* **Player Input:** Users can input their choice via `prompt()`.
+* **Random Computer Choice:** The computer generates a random choice using JavaScript's `Math.random`.
+* **Game Tracking:** Tracks total wins, ties, and losses for the player.
+* **Detailed Statistics:** Displays the count of each user choice (e.g., how many times they chose rock, paper, or scissors).
+* **Replay Option:** Allows users to play multiple rounds.
 
-* As a user, I want to be prompted when I enter an invalid choice.
+## Technology Stack
 
-* As a user, I want the option to play again whether I win or lose.
+This project uses the following technologies:
 
-* As a user, I want to see my total wins, ties, and losses after I have finished playing.
+* **JavaScript:** Powers the game logic, random choice generation, and user interaction.
+* **Browser Alerts and Prompts:** Utilizes `alert()`, `prompt()`, and `confirm()` for user interaction.
 
-* As a user, I want to see how many times I chose each option after I have finished playing.
+## Additional Resources
 
-### Specifications
-
-* Must use the `alert()`, `confirm()`, and `prompt()` methods to collect user input and display information to the user.
-
-* The computer's selection must be random to ensure a fair game.
-
-## 💡 Notes
-
-Refer to the documentation:
-
-* [MDN Web Docs on window.alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
-
-* [MDN Web Docs on window.confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
-
-* [MDN Web Docs on window.prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
-
-* [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
-
-## 🏆 Bonus
-
-If you have completed this activity, work through the following challenge with your group to further your knowledge:
-
-* How can you customize the appearance of the `alert()`, `confirm()`, and `prompt()` dialog boxes?
-
-Use [Google](https://www.google.com) or another search engine to research this.
-
----
-
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-=======
-# mini-project-3
-A simple Rock Paper Scissors game in JavaScript
->>>>>>> afced9c59fcfced98c14613fcdccc61a72c70ef3
+* Learn more about how to use `alert()` for notifications: [MDN Web Docs on alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
+* Learn more about how to use `confirm()` for user confirmation: [MDN Web Docs on confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
+* Learn more about how to use `prompt()` for user input: [MDN Web Docs on prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+* Learn more about generating random numbers: [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
