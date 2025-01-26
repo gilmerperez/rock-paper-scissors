@@ -4,23 +4,35 @@
 
 This project involves building a game of Rock, Paper, Scissors using only JavaScript. Users can play against an automated opponent, track their results, and analyze their choices.
 
+## Usage
+
+Open the `index.html` file to view the landing page and test its functionality.
+
 ## Instructions
 
 The application should meet the following criteria:
 
-* Users can enter **R**, **P**, or **S** to signify their choice of rock, paper, or scissors.
-* The computer's choice is randomly generated for a fair game.
-* Users will be prompted if they enter an invalid choice.
-* After each round, users have the option to play again.
-* At the end of the game, users can view their total wins, losses, ties, and how many times they chose each option.
+1. Users can enter **R**, **P**, or **S** to signify their choice of rock, paper, or scissors.
+
+2. The computer's choice is randomly generated for a fair game.
+
+3. Users will be prompted if they enter an invalid choice.
+
+4. After each round, users have the option to play again.
+
+5. At the end of the game, users can view their total wins, losses, ties, and how many times they chose each option.
 
 ## Key Features
 
-* **Player Input:** Users can input their choice via `prompt()`.
-* **Random Computer Choice:** The computer generates a random choice using JavaScript's `Math.random`.
-* **Game Tracking:** Tracks total wins, ties, and losses for the player.
-* **Detailed Statistics:** Displays the count of each user choice (e.g., how many times they chose rock, paper, or scissors).
-* **Replay Option:** Allows users to play multiple rounds.
+* Player Input: Users can input their choice via `prompt()`.
+
+* Random Computer Choice: The computer generates a random choice using JavaScript's `Math.random`.
+
+* Game Tracking: Tracks total wins, ties, and losses for the player.
+
+* Detailed Statistics: Displays the count of each user choice (e.g., how many times they chose rock, paper, or scissors).
+
+* Replay Option: Allows users to play multiple rounds.
 
 ## Technology Stack
 
