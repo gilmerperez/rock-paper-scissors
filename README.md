@@ -1,12 +1,25 @@
 # Rock, Paper, Scissors
 
-## Description
-
 This project involves building a game of Rock, Paper, Scissors using only JavaScript. Users can play against an automated opponent, track their results, and analyze their choices.
+
+## Table of Contents
+
+- [Usage](#usage)
+- [Mock Up](#mock-up)
+- [Instructions](#instructions)
+- [Key Features](#key-features)
+- [Technology Stack](#technology-stack)
+- [Additional Resources](#additional-resources)
 
 ## Usage
 
 Open the `index.html` file to view the landing page and test its functionality.
+
+## Mock-Up
+
+The following image shows the web application's appearance and functionality:
+
+![Screenshot](./images/scWesbite.jpg)
 
 ## Instructions
 
@@ -39,11 +52,15 @@ The application should meet the following criteria:
 This project uses the following technologies:
 
 * **JavaScript:** Powers the game logic, random choice generation, and user interaction.
+
 * **Browser Alerts and Prompts:** Utilizes `alert()`, `prompt()`, and `confirm()` for user interaction.
 
 ## Additional Resources
 
 * Learn more about how to use `alert()` for notifications: [MDN Web Docs on alert()](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert)
+
 * Learn more about how to use `confirm()` for user confirmation: [MDN Web Docs on confirm()](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
+
 * Learn more about how to use `prompt()` for user input: [MDN Web Docs on prompt()](https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt)
+
 * Learn more about generating random numbers: [MDN Web Docs on Math](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math)
